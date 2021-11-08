@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(196, 230, 159);
+}
+
+.navv{
+    height: 10vh;
+    background-color: darkcyan;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    /* padding-left: 10px; */
+  }
+  
+  .nav-item a{
+    font-weight: bold;
+    padding-right: 30px !important;
+    /* margin-left: 30px; */
+  }
+  
+.container{
+    position: absolute;
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mycard{
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px -10px rgba(0 , 0, 0, 0.7);
+}
+
+.myRightctn{
+    position: relative;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myRightctn{
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    height: auto;
+    padding: 25px;
+    padding-left: 50px;
+}
+
+.myRightctn h1{
+    color: rgb(0, 9, 128);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.row{
+    height: 100%;
+}
+
+.myCard{
+    position: relative;
+    background: #fff;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px -10px rgba(0,0,0,0.7);
+}
+
+.myleftctn h1{
+    color: rgb(0, 9, 128);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.box{
+    position: relative;
+    margin: 20px;
+    /* margin-bottom: 100px; */
+} 
+
+.myRightctn .myInput{
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    box-shadow: 0px 10px 49px -14px rgba(0,0,0,0.7);
+}
+
+.myRightctn .myInput:focus{
+    outline: none;
+}
+
+.myform {
+    position: relative;
+    margin-top: 50px;
+}
+
+.myRightctn .butt{
+    background-color:rgb(0, 9, 128);
+    color: #fff;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 10px 41px -11px rgba(0,0,0, 0.7);
+}
+
+.myRightctn .butt:hover{
+    background-color: black
+}
+.myRightctn .butt:focus{
+    outline: none;
+}
+
+.myRightctn .fas{
+    position: relative;
+    color: black;
+    left: 36px;
+}
+
+.forgot{
+    margin-top: 10px;
+}
